@@ -1,0 +1,9 @@
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  background-color: #e9f8f3;
+}
+/*# sourceMappingURL=global.css.map */

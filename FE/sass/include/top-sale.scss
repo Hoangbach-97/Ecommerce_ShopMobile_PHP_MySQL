@@ -1,0 +1,47 @@
+// Templates Top-sale
+#top-sale{
+    .owl-carousel .item .product a{
+        // Khi chiều cao của box không đủ chứa text =>text bị giấu đi: Cụ thể ở đây là ảnh trong thẻ anchor
+        overflow: hidden;
+    }
+
+    .owl-carousel .item .product img {
+        // transition: xác định quá trình chuyển đổi khi có hành động trong khoảng time
+        // transform: Thay đổi hình dạng, kích thước
+        transition: transform .5s ease;
+    }
+
+    .owl-carousel .item .product img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .owl-carousel .owl-nav button{
+        position: absolute;
+        top: 15%;
+        // outline:none;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev{
+        left:0;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev span{
+        font-size: 30px;
+        color: $color-primary;
+        margin-left: -4em;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        right:0;
+
+    }
+
+    .owl-carousel .owl-nav button.owl-next span{
+        font-size: 30px;
+        color: $color-primary;
+        margin-right: -4em;
+    }
+}
+
+

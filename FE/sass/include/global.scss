@@ -1,0 +1,38 @@
+// global classes
+
+button, button:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+body{
+    background-color: rgb(233, 248, 243);
+}
+
+#new-phone{
+    .owl-carousel .owl-nav button{
+        position: absolute;
+        top: 35%;
+        // outline:none;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev{
+        left:0;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev span{
+        font-size: 30px;
+        color: $color-primary;
+        margin-left: -4em;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        right:0;
+
+    }
+
+    .owl-carousel .owl-nav button.owl-next span{
+        font-size: 30px;
+        color: $color-primary;
+        margin-right: -4em;
+    }
+}
