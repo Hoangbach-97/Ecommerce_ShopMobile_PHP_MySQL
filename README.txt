@@ -21,6 +21,7 @@
 8. Toàn bộ Controller chỉ sử dụng 3 class DBController:connect và close DB và Product(Controller): retrieve data và Cart
 
 
+CHƯA CÓ: Dasboard quản trị, User...
 
 #Copyright: Hoàng bách
 Emmes: Shift+Alt+Down
